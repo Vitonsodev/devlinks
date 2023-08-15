@@ -8,9 +8,9 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
 
-    img.setAttribute("src", "./assets/avatar-dark.png")
+    img.setAttribute("src", "./src/css/images/avatar-dark.png")
   } else {
 
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./src/css/images/avatar.png")
   }
 } 
